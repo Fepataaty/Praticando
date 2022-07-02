@@ -3,7 +3,8 @@ def calculadora():
     operacao = int(input('Informe qual operação deseja fazer: \n 1 - Soma \n 2 - Subtração \n 3 - Multiplicação \n 4 - Divisão \n Operação: '))
 
     if operacao > 4 or operacao < 1:
-        print('oiiiiii')
+        print("Informe uma opção correta")
+        calculadora()
     else:
         num1 = int(input('Digite um número: '))
         num2 = int(input('Digite outro número: '))
