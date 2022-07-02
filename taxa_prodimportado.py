@@ -1,5 +1,6 @@
 def taxacao():
 # Atividade proposta no curso de Lógica de Programação de Gustavo Guanabara - Cursos em Vídeo/Youtube
+# https://www.youtube.com/watch?v=v2nCgGSVCeE&list=PLHz_AreHm4dmSj0MHol_aoNYCSGFqvfXV&index=7&t=907s
 
     pergunta = int(input("Você adquiriu algum produto no exterior? \n 1 - Sim \n 2 - Não \n Informe: "))
     
